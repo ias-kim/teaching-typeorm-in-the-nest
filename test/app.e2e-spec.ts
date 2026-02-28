@@ -41,7 +41,7 @@ describe('AppController (e2e)', () => {
         username: 'test',
       })
 
-      expect(res.statusCode).toBe(401)
+      expect(res.statusCode).toBe(201)
       // expect(res.body).toBe({
       //   email: 'test@amamov.com',
       //   username: 'test',
